@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Foi uma semana de bastante desafio e aprendizado. Contudo, estou muito feliz e confiante! Aprendi a mexer no terminal bash, github e amei aprender **branch**. Estou muito orgulhosa por estar absorvendo o conteudo e me entendendo com os comandos.
