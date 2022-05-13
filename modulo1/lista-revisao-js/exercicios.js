@@ -169,9 +169,17 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-
+let saldo = contas.map((item) => {
+  return item.compras.reduce ((valor1, valor2) => {
+    return valor1 + valor2
+ }, 0)
+})
+for (let i = 0; i < contas.length; i++) {
+  contas[i].saldoTotal -= saldo[i]
+  contas[i].compras = []
 }
-
+return contas
+}
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
   const ordenado = consultas.sort((item, index) => {
@@ -183,5 +191,5 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-   
+    
 }
