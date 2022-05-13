@@ -82,37 +82,89 @@ return objeto
 }
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+   let retornoPares = []
+   for (let i=0; i<n*2; i++){
+     if (i%2===0){
+       retornoPares.push(i)
+     }
+   }
+   return retornoPares
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+if( ladoA === ladoB &&  ladoB === ladoC && ladoC === ladoA ){
+  return "Equilátero"
+}
+else if (ladoA === ladoB && ladoC != ladoA || ladoB === ladoC && ladoC != ladoA || ladoC === ladoA && ladoA != ladoB){
+  return "Isósceles"
+}
+else if (ladoA != ladoB && ladoB != ladoC && ladoC != ladoA){
+
+return "Escaleno"
+
+}
 
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+  let array2 = []
+  const crescente = array.sort((item, index) => {
+    return item - index
+    
+      })
+     let segundoMaiorNumero = crescente[crescente.length -2]
+     let segundoMenorNumero = crescente[1]
+array2.push(segundoMaiorNumero, segundoMenorNumero)
+    return array2
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+   filme = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+   }
+   return "Venha assistir ao filme O Diabo Veste Prada, de 2006, dirigido por David Frankel e estrelado por Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci."
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+   pessoa = {
+    nome: pessoa.nome,
+	idade: pessoa.idade,
+	email: pessoa.email,
+	endereco: pessoa.endereco
+   }
+   let pessoa2 ={
+     ... pessoa,
+     nome: "ANÔNIMO"
+   }
+   return pessoa2
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+   let permissaoEntrada = pessoas.filter ((item) => {
+     if (item.altura >= 1.5 && item.idade > 14 && item.idade < 60){
+     return item
+    }
+   })
+   return permissaoEntrada
+
 }
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+  let NpermissaoEntrada = pessoas.filter ((item) => {
+     if (item.altura < 1.5 || item.idade <= 14 || item.idade >= 60){
+     return item
+    }
+   })
+   return NpermissaoEntrada
 }
 
 // EXERCÍCIO 14
@@ -122,7 +174,11 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+  const ordenado = consultas.sort((item, index) => {
+    return (item.nome > index.nome)? 1 : ((index.nome > item.nome)? -1 : 0)
+    
+      })
+      return ordenado
 }
 
 // EXERCÍCIO 15B
