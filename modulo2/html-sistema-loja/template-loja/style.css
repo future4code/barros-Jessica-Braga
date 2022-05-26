@@ -1,0 +1,113 @@
+.estilo {
+    background-color: #582323;
+    color: white;
+    text-align: center;
+    margin: 0 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+.estilo p {
+color: burlywood ;
+font-size: 20px;
+
+}
+
+.link {
+    background-color: #582323;
+    color: white;
+    text-align: center;
+    margin: 20px 200px;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.link a {
+    color: white;
+    margin-right: 10px;
+}
+
+.rodape {
+    background-color: #582323;
+    color: white;
+    text-align: center;
+    margin: 0 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.tabela {
+    background-color: #582323;
+    color: white;
+    text-align: center;
+    margin: 0 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+.tabela table {
+    margin: auto;
+    border: solid;
+    border-color: white;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 15px;
+    border-collapse: collapse;
+    
+    
+}
+
+.formulario {
+    background-color: #582323;
+    color: white;
+    margin: 0 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.formulario input {
+    margin-top: 12px;
+    margin-left: 50px
+    
+
+}
+
+.formulario form {
+    width: 400px;
+    margin:auto;
+}
+
+.formulario h2 {
+    text-align: center;
+}
+
+.formulario button {
+    margin: auto;
+}
+
+.lista {
+    background-color: #582323;
+    color: white;
+    margin: 0 200px;
+    padding: 10px 0;
+    border-radius: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+
+}
+
+.lista ol {
+    margin: auto;
+    width: 50px;
+    padding-bottom: 20px;
+}
