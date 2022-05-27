@@ -1,0 +1,60 @@
+.cabecalho {
+    background-color: lightcoral;
+    text-align: center;
+    margin: 0 200px;
+    padding: 5px;
+
+}
+
+.links {
+    background-color: lightcoral;
+    text-align: center;
+    margin: 10px 200px;
+    padding: 12px;
+
+}
+
+.links a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    background-color:whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.links a:hover {
+background-color: rgb(238, 234, 234);
+
+}
+
+.geral{
+    background-color: lightcoral;
+    margin: 0 200px;
+    padding: 5px;
+}
+
+
+.conteudo {
+width: 1000px;
+margin: 120px auto;
+background-color: whitesmoke;
+padding: 10px;
+border-radius: 30px;
+box-shadow: 2px 3px 5px black;
+}
+
+.conteudo p {
+    display:inline-block;
+    vertical-align: middle;
+padding-right: 200px;
+padding-top: 50px ;
+}
+
+
+.conteudo img {
+    vertical-align: top;
+    border-radius: 30px;
+    box-shadow: 2px 3px 5px black;
+}
