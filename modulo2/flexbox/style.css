@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content:space-between ;
+    padding: 20px;
+    align-items: center;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+   
+}
+
+.inicio h1 {
+    padding-left: 25px;
+}
+
+.icones {
+    display: flex;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #f2d0e0;
+    padding: 20px;
+    height: 100%;
+}
+
+.x {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.y {
+    display: flex;
+}
+
+.y p {
+    padding-left:25px ;
+}
+
+.bolos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descricao {
+    
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 2px 5px darkgrey;
+    padding: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: mediumvioletred;
+    padding: 20px;
+    position: absolute;
+    width: 99%;
+}
+
+.rodape img {
+    padding-left: 10px;
+}
