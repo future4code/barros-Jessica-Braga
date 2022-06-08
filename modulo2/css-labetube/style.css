@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+display: grid;
+grid-template-columns: 85% 15%;
+background-color:#ef843a;
+align-items: center;
+padding: 20px;
+margin-left: 15px;
+    margin-right: 15px;
+}
+
+.busca input {
+    padding: 8px;
+    padding-right: 100px;
+}
+
+.assistir {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+row-gap: 10px;
+column-gap: 10px;
+margin: 15px;
+ 
+}
+
+.videos video {
+width: 100%;
+}
+
+.videos p {
+    padding: 12px 0;
+    padding-left: 3px;
+}
+
+.videos a {
+color: black;
+text-decoration: none;
+}
+
+
+
+
+.videos {
+    border: 1px solid green;
+}
+
+.rodape {
+    background-color:rgb(42, 46, 52);
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    bottom: 0;
+    position:fixed;
+    right: 0;
+    left: 0;
+    
+    
+
+}
+
+.rodape h2 {
+    color: white;
+
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 50px 10px;
+    margin: 20px;
+}
+
+.recebido video {
+    width: 100%;
+}
