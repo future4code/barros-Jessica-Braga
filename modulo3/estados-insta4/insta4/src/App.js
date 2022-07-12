@@ -19,7 +19,8 @@ const listaPost = [
   fotoPost:'https://picsum.photos/200/152'},
 ]
 
-const componentePost = listaPost.map ((valor, index) => {
+
+const componentePosts = listaPost.map ((valor, index) => {
 return <li key={index}><Post nomeUsuario={valor.nomeUsuario} fotoUsuario=
 {valor.fotoUsuario} fotoPost={valor.fotoPost}/></li>
 })
@@ -28,7 +29,7 @@ console.log (listaPost)
 
 return (
   <MainContainer>
-    <ul> {componentePost}</ul>
+    <ul> {componentePosts}</ul>
   </MainContainer>
 )}
 
